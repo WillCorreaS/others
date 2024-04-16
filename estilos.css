@@ -1,0 +1,99 @@
+*{box-sizing: border-box;}
+
+img {max-width: 100%;}
+
+
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+.seta-nav{
+    width: 30px;
+    align-items: end;
+}
+
+/* ESTILIZAÇÂO DO CABEÇALHO */
+
+.logo {
+    width: 8%;
+    border-radius: 50%;
+}
+
+
+header {
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 5vh;
+}
+
+header div{
+    display: inline-block;
+    align-items:baseline;
+ 
+}
+
+header div img{ width: 30px;}
+
+
+
+
+
+/* ESTILIZAÇÂO SEUS ARTISTAS FAVORITOS */
+
+main{
+    background-color: cornflowerblue;
+    
+}
+
+.art-favoritos {
+    display: flex;
+
+}
+
+.art-favoritos img {
+    max-width: none;
+    width: 25vw;
+}
+
+
+
+
+
+
+
+/* ESTILIZAÇÂO TOCADAS RECENTEMENTE */
+.tocada-recente {
+    display: flex;
+
+}
+
+
+
+
+
+
+/* ESTILIZAÇÂO ESTILOS MUSICAIS */
+.estilo-musical {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+
+}
+
+
+
+
+
+
+footer{
+    background-color: dimgray;
+}
+
+footer
