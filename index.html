@@ -6,15 +6,19 @@
     <title>Projeto</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
+<body class="limitador">
 
     <header>
         <nav>
             <a href="#"> <img src="/imagens/logo-marca.jpg" alt="" class="logo">  </a>
 
             <div>
-            <a href="#"> <img src="/imagens/icones/lupa.png" alt=""> </a>
+                <aside>
+            <a href="#"> <img src="/imagens/icones/lupa.png" alt=""></a> 
+            <form id="search" action="/search" class="abs" role="search" data-pluged="searchSuggest"><button type="submit" class="" data-pluged="searchSuggest"><b>O que você quer ouvir hoje?</b><i class="icon-busca"></i></button></form>
+        </aside>
                         <!-- links por ordem alfabática -->
+                        <div  class="links-alfabeto">
             <a href="#">0-9</a>
             <a href="#">A</a>
             <a href="#">B</a>
@@ -42,7 +46,7 @@
             <a href="#">X</a>
             <a href="#">Y</a>
             <a href="#">Z</a>
-
+                            </div>
         </div>
 
             <a href="#"> <img src="/imagens/icones/icone-user.png" alt=""> </a>
@@ -59,6 +63,7 @@
             <h2>Seus artistas Faviritos</h2>
             <a href="#"> <img src="/imagens/icones/seta-next.png" alt="" class="seta-nav"> </a>
             <ul  class="art-favoritos" >
+                
                 <li> <a href="#"> <img src="/imagens/artista/ariana-grande.png" alt=""> </a></li>
                 <li> <a href="#"> <img src="/imagens/artista/beyonce.png" alt=""> </a></li>
                 <li> <a href="#"> <img src="/imagens/artista/coldplay.png" alt=""> </a></li>

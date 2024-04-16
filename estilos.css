@@ -1,13 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{box-sizing: border-box;}
 
-img {max-width: 100%;}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+}
+
+body, h1, h2, p, figure, nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+img{max-width: 100%;}
+
+a{ text-decoration: none; color: aliceblue; letter-spacing: 5px;}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+ul {list-style: none;}
+
+
+.limitador {
+    width: 95vw;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 body {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-image: url(/imagens/imagen-de-fundo.jpg);
     margin: 0;
     padding: 0;
+    color: aliceblue;
 }
 
 .seta-nav{
@@ -41,6 +84,13 @@ header div{
 
 header div img{ width: 30px;}
 
+header aside {display: flex;}
+
+
+
+
+
+
 
 
 
@@ -48,7 +98,7 @@ header div img{ width: 30px;}
 /* ESTILIZAÇÂO SEUS ARTISTAS FAVORITOS */
 
 main{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     
 }
 
@@ -71,8 +121,12 @@ main{
 /* ESTILIZAÇÂO TOCADAS RECENTEMENTE */
 .tocada-recente {
     display: flex;
+    width: 130vw;
+    gap: 40px;
 
 }
+
+.tocada-recente img {box-shadow: #171717 2px 2px 15px;}
 
 
 
@@ -83,17 +137,22 @@ main{
 .estilo-musical {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-
+    width: 130vw;
+    gap: 40px;
 }
 
+.estilo-musical img {box-shadow: #171717 2px 2px 15px;}
 
 
 
 
 
 footer{
-    background-color: dimgray;
+    background-color: #171717;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
 }
-
-footer
