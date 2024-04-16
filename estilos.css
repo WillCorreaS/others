@@ -31,7 +31,9 @@ ul {list-style: none;}
 .limitador {
     width: 95vw;
     margin: auto;
+    height: auto;
 }
+
 
 
 
@@ -48,6 +50,8 @@ ul {list-style: none;}
 body {
     /* background-color: blueviolet; */
     background-image: url(/imagens/imagen-de-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     color: aliceblue;
@@ -55,7 +59,14 @@ body {
 
 .seta-nav{
     width: 30px;
-    align-items: end;
+    opacity: 50%;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.seta-nav:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 /* ESTILIZAÇÂO DO CABEÇALHO */
