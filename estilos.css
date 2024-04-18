@@ -34,6 +34,10 @@ ul {list-style: none;}
     height: auto;
 }
 
+.container { 
+    width: 80%;
+    margin: 0 auto;
+ }
 
 
 
