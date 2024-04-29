@@ -27,7 +27,6 @@ header{
 
 ul {list-style: none;}
 
-
 .limitador {
     width: 95vw;
     margin: auto;
@@ -81,6 +80,12 @@ body {
     border-radius: 50%;
 }
 
+.background-header{
+    width:max-content;
+    padding: 0;
+    margin: 0;
+    
+}
 
 header {
     background-color: #171717;
